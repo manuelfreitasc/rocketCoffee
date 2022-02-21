@@ -7,7 +7,7 @@ interface FullChildren {
 
 function Header() {
     return (
-        <div className="container">
+        <div className="content">
             <nav>
                 <img src={logo} alt="logo" />
                 <ul>
