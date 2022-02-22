@@ -1,7 +1,21 @@
-.conteiner{
+.banner-conteiner{
   width: 100%;
+  margin-top: 3%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   color: #FFF;
+}
+h1{
+  font-size: 48px;
+  color: var(--text-color);
+}
+.great{
+  font-size: 48px;
+  font-weight: 700;
+ color: #000000;
+ text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button),
+ -1px 1px 0 var(--button), 1px 1px 0 var(--button)
+ ;
 }

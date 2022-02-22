@@ -2,17 +2,15 @@ import './styles.css'
 
 interface IData {
   title: string;
-  code: string;
+  code?: string;
 }
 
 
 function Banner({ title, code }: IData) {
   return (
-    <div className="container">
+    <div className="banner-conteiner">
       <h1>{title}</h1>
-      <code>
-        {code}
-      </code>
+      <p className="great">{`< Great Code/ >`}</p>`
     </div>
   )
 }

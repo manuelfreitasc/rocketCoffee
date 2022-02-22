@@ -1,13 +1,15 @@
 import { Banner } from '../../Components/Banner'
 import { Header } from '../../Components/Header'
+import { Main } from '../../Components/Main'
 import './styles.css'
 
 
 function Home() {
   return (
-    <div className="container">
+    <div className="home-container">
       <Header />
-      <Banner title="nelo" code="dois" />
+      <Banner title="Great Coffee" />
+      <Main />
     </div>
   )
 }
